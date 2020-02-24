@@ -1,5 +1,7 @@
 # My very own implementation of Discord.py 
+
 > The goal is to have a fully working discord bot that can suits all my needs
+
 ---
 ## Local installation
 
@@ -11,6 +13,11 @@
 ``` python3
     pip3 install -r requirements.txt
 ```
+- Create a .env file with your bot token inside
+```
+    touch .env && code .env
+    BOT_TOKEN='insert token here'
+```
 - Launch the bot
 ``` python3
     python3 bot.py
@@ -19,8 +26,17 @@
 *If you don't want to install the bot locally, it is available online too and you just have to invite it to your discord server*
 
 ---
-
 ## How to invite the bot to your Discord server
+
+---
+## Available prefixes
+```
+    ` ! $
+```
+
+---
+
+
 
 
 
